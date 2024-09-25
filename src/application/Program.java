@@ -37,9 +37,9 @@ public class Program {
 		}
 		
 		System.out.println("\n### TESTE Nº 4 : TESTE SELLER insert ###");
-		// Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
-		// sellerDao.insert(newSeller);
-		// System.out.println("Inserted! New id = " + newSeller.getId());
+		Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
+		sellerDao.insert(newSeller);
+		System.out.println("Inserted! New id = " + newSeller.getId());
 		
 		System.out.println("\n### TESTE Nº 5 : TESTE SELLER update ###");
 		seller = sellerDao.findById(1);
